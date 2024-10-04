@@ -58,22 +58,3 @@ def get_unique_elements_numbers(original):
         if i not in comparison:
             comparison.append(i)
     return comparison
-
-# Only for testing if Jupyter doesn't work
-
-original = random_values(10,1,10)
-even = filter_even(original)
-sum = sum_of_list(even)
-names = ['luke', 'leia', 'han', 'chewbacca']
-Names = capitalize_names(names)
-increase_list = [1,3,4,7,8]
-increasing = is_strictly_increasing(original)
-unique = get_unique_elements_numbers(original)
-print(f'Original list of numbers: {original}')
-print(f'Filtered even numbers: {even}')
-print(f'Sum of even numbers: {sum}')
-print(f'Original list of names: {names}')
-print(f'Capitalized names: {Names}')
-print(f'Original list is strictly increasing?: {increasing}')
-print(f'Increasing list is... increasing?: {is_strictly_increasing(increase_list)}')
-print(f'Unique numbers in original list: {unique}')
